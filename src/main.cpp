@@ -34,6 +34,7 @@ int main() {
         }
     });
     bot.start(dpp::st_wait);
+    return 0;
 }
 
 // TO RUN: cd build && cmake .. && cd .. && cmake --build build/ -j4 && cd build && ./discord-bot
